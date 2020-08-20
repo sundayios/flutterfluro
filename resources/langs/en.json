@@ -1,0 +1,38 @@
+{   
+    "SIGN IN":"SIGN IN",
+    "title": "Hello",
+    "msg": "Hello {} in the {} world ",
+    "clickMe": "Click me",
+    "profile": {
+        "reset_password": {
+            "title": "Reset Password",
+            "username": "Username",
+            "password": "password"
+        }
+    },
+    "clicked": {
+        "zero": "You clicked {} times!",
+        "one": "You clicked {} time!",
+        "two": "You clicked {} times!",
+        "few": "You clicked {} times!",
+        "many": "You clicked {} times!",
+        "other": "You clicked {} times!"
+    },
+    "amount": {
+        "zero": "Your amount : {} ",
+        "one": "Your amount : {} ",
+        "two": "Your amount : {} ",
+        "few": "Your amount : {} ",
+        "many": "Your amount : {} ",
+        "other": "Your amount : {} "
+    },
+    "switch": {
+        "male": "Hi man ;) ",
+        "female": "Hello girl :)",
+        "with_arg": {
+            "male": "Hi man ;) {}",
+            "female": "Hello girl :) {}"
+        }
+    },
+    "reset_locale": "Reset Saved Language"
+}

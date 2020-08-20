@@ -1,0 +1,56 @@
+{   
+    "SIGN IN":"SIGN IN",
+    "REGISTER" : "REGISTER",
+    "Don’t have an account? Sign Up":"Don’t have an account? Sign Up",
+    "Sign In":"Sign In",
+    "Have an account?":"Have an account?",
+    "Email":"Email",
+    "Enter password":"Enter password",
+    "Forgot your password?":"Forgot your password?",
+    "By clicking Sign up you agree to the following ":"By clicking Sign up you agree to the following ",
+    "Terms and Conditions ":"Terms and Conditions ",
+    "without reservation":"without reservation",
+    "Privacy Policy":"Privacy Policy",
+    "Password":"Password",
+    "Register to get a US $ 3 ShopSave coupon":"Register to get a US $ 3 ShopSave coupon",
+    "Resend in ":"Resend in ",
+    "Resend" : "Resend",
+    "Didn’t receive the code?":"Didn’t receive the code?",
+    "Registering ,Please wait..." : "Registering ,Please wait...",
+    "Loging, Please wait...":"Loging, Please wait...",
+    "title": "Hello",
+    "msg": "Hello {} in the {} world ",
+    "clickMe": "Click me",
+    "profile": {
+        "reset_password": {
+            "title": "Reset Password",
+            "username": "Username",
+            "password": "password"
+        }
+    },
+    "clicked": {
+        "zero": "You clicked {} times!",
+        "one": "You clicked {} time!",
+        "two": "You clicked {} times!",
+        "few": "You clicked {} times!",
+        "many": "You clicked {} times!",
+        "other": "You clicked {} times!"
+    },
+    "amount": {
+        "zero": "Your amount : {} ",
+        "one": "Your amount : {} ",
+        "two": "Your amount : {} ",
+        "few": "Your amount : {} ",
+        "many": "Your amount : {} ",
+        "other": "Your amount : {} "
+    },
+    "switch": {
+        "male": "Hi man ;) ",
+        "female": "Hello girl :)",
+        "with_arg": {
+            "male": "Hi man ;) {}",
+            "female": "Hello girl :) {}"
+        }
+    },
+    "reset_locale": "Reset Saved Language"
+}
