@@ -41,8 +41,8 @@ class ThemeProvider extends ChangeNotifier {
     return ThemeData(
       errorColor: isDarkMode ? AppColors.red_dark : AppColors.red,
       brightness: isDarkMode ? Brightness.dark : Brightness.light,
-      primaryColor: isDarkMode ? AppColors.app_main_dark : AppColors.app_main,
-      accentColor: isDarkMode ? AppColors.app_main_dark : AppColors.app_main,
+      primaryColor: isDarkMode ? AppColors.primary_dark : AppColors.primary,
+      accentColor: isDarkMode ? AppColors.accent_dark : AppColors.accent,
       // Tab指示器颜色
       indicatorColor: isDarkMode ? AppColors.app_main_dark : AppColors.app_main,
       // 页面背景色
@@ -55,6 +55,16 @@ class ThemeProvider extends ChangeNotifier {
       textSelectionColor: AppColors.app_main.withAlpha(70),
       textSelectionHandleColor: AppColors.app_main,
       textTheme: TextTheme(
+        // TextField输入文字颜色
+        subtitle1: isDarkMode ? TextStyles.textDark : TextStyles.text,
+        // Text文字样式
+        bodyText1: isDarkMode ? TextStyles.textDark : TextStyles.text,
+
+        bodyText2: isDarkMode ? TextStyles.textDark : TextStyles.text,
+        subtitle2:
+            isDarkMode ? TextStyles.textDarkGray12 : TextStyles.textGray12,
+      ),
+      primaryTextTheme: TextTheme(
         // TextField输入文字颜色
         subtitle1: isDarkMode ? TextStyles.textDark : TextStyles.text,
         // Text文字样式

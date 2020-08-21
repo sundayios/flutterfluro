@@ -11,6 +11,16 @@ class ThemeUtils {
     return Theme.of(context).brightness == Brightness.dark;
   }
 
+  static Color getTabBarTextColor(BuildContext context) {
+    return isDark(context)
+        ? AppColors.bottom_tabtext_main_dark
+        : AppColors.bottom_tabtext_main;
+  }
+
+  static Color getBottomTabIconColor(BuildContext context) {
+    return isDark(context) ? AppColors.app_main : AppColors.app_main_dark;
+  }
+
   static Color getDarkColor(BuildContext context, Color darkColor) {
     return isDark(context) ? darkColor : null;
   }

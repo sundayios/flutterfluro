@@ -8,8 +8,8 @@ class AppColors {
   static const red = Colors.red;
   static const red_dark = Colors.red;
 
-  static const primary = Color(0xFF131621);
-  static const primary_dark = Color(0xFF131621);
+  static const primary = Colors.white;
+  static const primary_dark = Colors.black;
   static const accent = Color(0xFFCD0B65);
   static const accent_dark = Color(0xFF4C1C6E);
   static const bg_color_dark = Colors.black;
@@ -21,21 +21,19 @@ class AppColors {
   static const text_gray = Colors.grey;
   static const text_gray_dark = Colors.grey;
   static const text_dark = Colors.grey;
+  static const text = Colors.black;
   static const unselected_item_color = Colors.white;
 
   static const pageBackground = Color(0xFF1A182C);
   static const popupBackground = Color(0xFF20262C);
 
   static const transparent = Colors.transparent;
-  static const white = Colors.white;
-  static const white70 = Colors.white70;
-  static const white54 = Colors.white54;
-  static const white30 = Colors.white30;
-  static const black = Colors.black;
-  static const grey = Colors.grey;
 
-  static const app_main_dark = Colors.black;
-  static const app_main = Colors.white;
+  static const bottom_tabtext_unselcolor = text_gray;
+  static const bottom_tabtext_main = Colors.black;
+  static const bottom_tabtext_main_dark = Colors.white;
+  static const app_main_dark = Colors.orange;
+  static const app_main = Colors.orange;
 }
 
 /// 尺寸
@@ -136,7 +134,7 @@ class TextStyles {
 
   static const TextStyle text = TextStyle(
       fontSize: AppDimensions.font_sp14,
-      color: AppColors.text_dark,
+      color: AppColors.text,
       // https://github.com/flutter/flutter/issues/40248
       textBaseline: TextBaseline.alphabetic,
       decoration: TextDecoration.none);

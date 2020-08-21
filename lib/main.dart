@@ -26,20 +26,20 @@ void main() {
         //   value: AppConfigNotifier(await sp.getAppConfig()),
         // ),
       ],
-      child: OKToast(
-        child: EasyLocalization(
-          child: MyApp(),
-          supportedLocales: [
-            // Locale('ar', 'DZ'),
-            Locale('en', 'US'),
-            Locale('zh', 'CN'),
-            // Locale('de', 'DE'),
-            // Locale('ru', 'RU')
-            // Locale('pt', 'PT')
-          ],
-          path: 'resources/langs',
-        ),
+      // child: OKToast(
+      child: EasyLocalization(
+        child: MyApp(),
+        supportedLocales: [
+          // Locale('ar', 'DZ'),
+          Locale('en', 'US'),
+          Locale('zh', 'CN'),
+          // Locale('de', 'DE'),
+          // Locale('ru', 'RU')
+          // Locale('pt', 'PT')
+        ],
+        path: 'resources/langs',
       ),
+      // ),
     ));
     // 透明状态栏
     if (Device.isAndroid) {

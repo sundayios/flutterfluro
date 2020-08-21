@@ -2,8 +2,10 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
+import 'package:aoyanews/routers/route_obsever.dart';
 
 class WebViewPage extends StatefulWidget {
+  static final routeObserver = WebViewRouteObserver();
   const WebViewPage({
     Key key,
     @required this.title,

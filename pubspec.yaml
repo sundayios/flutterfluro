@@ -49,6 +49,7 @@ dependencies:
   path_provider: ^1.6.11
   package_info: ^0.4.1
   cached_network_image: ^2.2.0+1
+  flutter_gifimage: ^1.0.1
   screen: ^0.0.5
   video_player: ^0.10.11+2
   image_gallery_saver: ^1.5.0

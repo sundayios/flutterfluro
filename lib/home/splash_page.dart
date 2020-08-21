@@ -36,11 +36,11 @@ class _SplashPageState extends State<SplashPage> {
       await SpUtil.getInstance();
       if (SpUtil.getBool(Constant.keyGuide, defValue: true)) {
         /// 预先缓存图片，避免直接使用时因为首次加载造成闪动
-        _guideList.forEach((image) {
-          precacheImage(
-              ImageUtils.getAssetImage(image, format: ImageFormat.webp),
-              context);
-        });
+        // _guideList.forEach((image) {
+        //   precacheImage(
+        //       ImageUtils.getAssetImage(image, format: ImageFormat.webp),
+        //       context);
+        // });
       }
       _initSplash();
       // Future.microtask(_tryPush);
@@ -140,25 +140,28 @@ class _SplashPageState extends State<SplashPage> {
                 leftFactor: 0.33,
                 bottomFactor: 0,
                 child: const LoadAssetImage('logo'))
-            : Swiper(
-                key: const Key('swiper'),
-                itemCount: _guideList.length,
-                loop: false,
-                itemBuilder: (_, index) {
-                  return LoadAssetImage(
-                    _guideList[index],
-                    key: Key(_guideList[index]),
-                    fit: BoxFit.cover,
-                    width: double.infinity,
-                    height: double.infinity,
-                    format: ImageFormat.webp,
-                  );
-                },
-                onTap: (index) {
-                  if (index == _guideList.length - 1) {
-                    _goHome();
-                  }
-                },
-              ));
+            : Text("adsfgb")
+
+        // Swiper(
+        //     key: const Key('swiper'),
+        //     itemCount: _guideList.length,
+        //     loop: false,
+        //     itemBuilder: (_, index) {
+        //       return LoadAssetImage(
+        //         _guideList[index],
+        //         key: Key(_guideList[index]),
+        //         fit: BoxFit.cover,
+        //         width: double.infinity,
+        //         height: double.infinity,
+        //         format: ImageFormat.webp,
+        //       );
+        //     },
+        //     onTap: (index) {
+        //       if (index == _guideList.length - 1) {
+        //         _goHome();
+        //       }
+        //     },
+        //   )
+        );
   }
 }
