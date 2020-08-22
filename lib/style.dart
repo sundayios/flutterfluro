@@ -93,71 +93,22 @@ class AppStyles {
 
 class TextStyles {
   TextStyles._();
-  static const TextStyle textSize12 = TextStyle(
-      fontSize: AppDimensions.font_sp12, decoration: TextDecoration.none);
-  static const TextStyle textSize16 = TextStyle(
-      fontSize: AppDimensions.font_sp16, decoration: TextDecoration.none);
-  static const TextStyle textBold14 = TextStyle(
-      fontSize: AppDimensions.font_sp14,
+
+  static const TextStyle textstyle12 =
+      TextStyle(fontSize: 14.0, decoration: TextDecoration.none);
+  static const TextStyle textHint14 = TextStyle(
+      fontSize: 14.0,
       fontWeight: FontWeight.bold,
       decoration: TextDecoration.none);
-  static const TextStyle textBold16 = TextStyle(
-      fontSize: AppDimensions.font_sp16,
-      fontWeight: FontWeight.bold,
-      decoration: TextDecoration.none);
-  static const TextStyle textBold18 = TextStyle(
-      fontSize: AppDimensions.font_sp18,
-      fontWeight: FontWeight.bold,
-      decoration: TextDecoration.none);
-  static const TextStyle textBold24 = TextStyle(
-      fontSize: 24.0,
-      fontWeight: FontWeight.bold,
-      decoration: TextDecoration.none);
+
   static const TextStyle textBold26 = TextStyle(
       fontSize: 26.0,
       fontWeight: FontWeight.bold,
       decoration: TextDecoration.none);
 
-  static const TextStyle textGray14 = TextStyle(
-      fontSize: AppDimensions.font_sp14,
-      color: AppColors.text_gray,
-      decoration: TextDecoration.none);
-  static const TextStyle textDarkGray14 = TextStyle(
-      fontSize: AppDimensions.font_sp14,
-      color: AppColors.text_gray,
-      decoration: TextDecoration.none);
-
-  static const TextStyle textWhite14 = TextStyle(
-      fontSize: AppDimensions.font_sp14,
-      color: Colors.white,
-      decoration: TextDecoration.none);
-
-  static const TextStyle text = TextStyle(
-      fontSize: AppDimensions.font_sp14,
-      color: AppColors.text,
-      // https://github.com/flutter/flutter/issues/40248
-      textBaseline: TextBaseline.alphabetic,
-      decoration: TextDecoration.none);
-  static const TextStyle textDark = TextStyle(
-      fontSize: AppDimensions.font_sp14,
-      color: AppColors.text_dark,
-      textBaseline: TextBaseline.alphabetic,
-      decoration: TextDecoration.none);
-
-  static const TextStyle textGray12 = TextStyle(
-      fontSize: AppDimensions.font_sp12,
-      color: AppColors.text_gray,
-      fontWeight: FontWeight.normal,
-      decoration: TextDecoration.none);
-  static const TextStyle textDarkGray12 = TextStyle(
-      fontSize: AppDimensions.font_sp12,
-      color: AppColors.text_gray_dark,
-      fontWeight: FontWeight.normal,
-      decoration: TextDecoration.none);
-
-  static const TextStyle textHint14 = TextStyle(
-      fontSize: AppDimensions.font_sp14,
-      color: AppColors.unselected_item_color,
+  static const TextStyle textBold262 = TextStyle(
+      fontSize: 26.0,
+      fontWeight: FontWeight.bold,
       decoration: TextDecoration.none);
 }
 

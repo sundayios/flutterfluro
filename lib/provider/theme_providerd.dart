@@ -54,39 +54,39 @@ class ThemeProvider extends ChangeNotifier {
       // 文字选择色（输入框复制粘贴菜单）
       textSelectionColor: AppColors.app_main.withAlpha(70),
       textSelectionHandleColor: AppColors.app_main,
-      textTheme: TextTheme(
-        // TextField输入文字颜色
-        subtitle1: isDarkMode ? TextStyles.textDark : TextStyles.text,
-        // Text文字样式
-        bodyText1: isDarkMode ? TextStyles.textDark : TextStyles.text,
+      // textTheme: TextTheme(
+      //   // TextField输入文字颜色
+      //   subtitle1: isDarkMode ? TextStyles.textDark : TextStyles.text,
+      //   // Text文字样式
+      //   bodyText1: isDarkMode ? TextStyles.textDark : TextStyles.text,
 
-        bodyText2: isDarkMode ? TextStyles.textDark : TextStyles.text,
-        subtitle2:
-            isDarkMode ? TextStyles.textDarkGray12 : TextStyles.textGray12,
-      ),
-      primaryTextTheme: TextTheme(
-        // TextField输入文字颜色
-        subtitle1: isDarkMode ? TextStyles.textDark : TextStyles.text,
-        // Text文字样式
-        bodyText1: isDarkMode ? TextStyles.textDark : TextStyles.text,
+      //   bodyText2: isDarkMode ? TextStyles.textDark : TextStyles.text,
+      //   subtitle2:
+      //       isDarkMode ? TextStyles.textDarkGray12 : TextStyles.textGray12,
+      // ),
+      // primaryTextTheme: TextTheme(
+      //   // TextField输入文字颜色
+      //   subtitle1: isDarkMode ? TextStyles.textDark : TextStyles.text,
+      //   // Text文字样式
+      //   bodyText1: isDarkMode ? TextStyles.textDark : TextStyles.text,
 
-        bodyText2: isDarkMode ? TextStyles.textDark : TextStyles.text,
-        subtitle2:
-            isDarkMode ? TextStyles.textDarkGray12 : TextStyles.textGray12,
-      ),
-      inputDecorationTheme: InputDecorationTheme(
-        hintStyle:
-            isDarkMode ? TextStyles.textHint14 : TextStyles.textDarkGray14,
-      ),
+      //   bodyText2: isDarkMode ? TextStyles.textDark : TextStyles.text,
+      //   subtitle2:
+      //       isDarkMode ? TextStyles.textDarkGray12 : TextStyles.textGray12,
+      // ),
+      // inputDecorationTheme: InputDecorationTheme(
+      //   hintStyle:
+      //       isDarkMode ? TextStyles.textHint14 : TextStyles.textHint14,
+      // ),
       appBarTheme: AppBarTheme(
         elevation: 0.0,
         color: isDarkMode ? AppColors.bg_color_dark : Colors.white,
         brightness: isDarkMode ? Brightness.dark : Brightness.light,
       ),
-      dividerTheme: DividerThemeData(
-          color: isDarkMode ? AppColors.line_dark : AppColors.line,
-          space: 0.6,
-          thickness: 0.6),
+      // DividerThemeData(
+      //     color: isDarkMode ? AppColors.line_dark : AppColors.line,
+      //     space: 0.6,
+      //     thickness: 0.6),
       cupertinoOverrideTheme: CupertinoThemeData(
         brightness: isDarkMode ? Brightness.dark : Brightness.light,
       ),
